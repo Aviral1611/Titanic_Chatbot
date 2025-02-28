@@ -1,0 +1,8 @@
+fastapi==0.103.0
+uvicorn==0.23.2
+pandas==2.0.3
+langchain==0.2.12  # Latest stable as of Aug 2024, compatible with Gemini
+langchain-google-genai==1.0.8  # Updated for Gemini 1.5 Flash
+matplotlib==3.7.2
+python-dotenv==1.0.0
+google-generativeai==0.7.2  # Latest for standalone Gemini access
