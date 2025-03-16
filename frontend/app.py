@@ -38,7 +38,7 @@ with st.sidebar:
 
 # Title and description
 st.title("Titanic Chatbot 🚢")
-st.markdown("Ask questions about the Titanic dataset in plain English and get instant answers!")
+st.markdown("Ask questions about the Titanic and get instant answers!")
 
 # Backend API URL from environment variable
 BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000/query")
@@ -64,7 +64,7 @@ with col2:
 st.markdown("""
     <div class="footer">
         Made by Aviral Bansal | 
-        <a href="https://github.com/your-github-username" target="_blank">
+        <a href="https://github.com/Aviral1611" target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align: middle; margin-left: 5px;">
         </a>
     </div>
