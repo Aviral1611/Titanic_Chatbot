@@ -6,3 +6,4 @@ langchain-google-genai==1.0.8  # Updated for Gemini 1.5 Flash
 matplotlib==3.7.2
 python-dotenv==1.0.0
 google-generativeai==0.7.2  # Latest for standalone Gemini access
+gunicorn==20.1.0  # Add for Render deployment
